@@ -1,0 +1,22 @@
+.card {
+  background: white;
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  border: 1px solid #dadada;
+  align-items: center;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  align-self: flex-start;
+  margin-bottom: 20px;
+  color: rgb(60, 60, 60)
+}
+
+.chart {
+  margin-top: 20px;
+}
