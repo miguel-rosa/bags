@@ -28,7 +28,7 @@ const RadarChartCard: React.FC<Props> = ({
           <PolarGrid />
           <PolarAngleAxis dataKey="subject" />
           <PolarRadiusAxis />
-          <Radar dataKey="A" stroke="#8884d8" fill="#8884d8" fillOpacity={0.6} />
+          <Radar dataKey="A" stroke="rgb(0, 123, 255)" fill="rgb(0, 123, 255)" fillOpacity={0.6} />
           <Tooltip />
         </RadarChart>
       </ResponsiveContainer>

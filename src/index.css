@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
 :root {
-  --color-white: white;
-  --color-gray: #dadada;
-  --color-dark-gray: rgb(119, 119, 119);
-  --color-black: black;
-  --color-blue: hsl(270deg 75% 60%);
+  --main-background: linear;
+  --card-background: linear-gradient(180deg, #020202, #000000);
+  --border-color: #1a1a1a;
+  --description-color: rgb(142, 142, 142);
+  --title-color: white;
+  --button-background: rgb(30, 30, 30);
 }
 
 body {
@@ -16,9 +17,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-body,
-html {
-  background: rgb(249, 249, 249);
+body {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #020202, #000000);
 }
 
 * {
