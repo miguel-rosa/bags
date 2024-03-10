@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  align-items: flex-start;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--title-color);
+}
+
+.description {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--description-color);
+}
+
+.buttons {
+  gap: 10px;
+  display: flex;
+  align-items: flex-start
+}
+
+.button {
+  color: var(--description-color);
+  padding: 4px 8px;
+  font-size: 12px;
+  border-radius: 4px;
+  background: var(--button-background);
+  border: 1px solid var(--border-color);
+  cursor: pointer;
+  text-decoration: none;
+
+}

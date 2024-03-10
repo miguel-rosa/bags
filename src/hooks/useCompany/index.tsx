@@ -11,7 +11,6 @@ interface UseCompany {
     company: Company
     hasError: boolean
   }
-
 }
 
 const useCompany = ({
