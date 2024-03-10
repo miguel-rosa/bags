@@ -14,6 +14,10 @@ This project aims to create an interactive data visualization piece to showcase 
 * [X] Use eslint to ensure the code formatting
 * [ ] Use Chakra UI
 
+## Try it now
+
+The project was deployed using Vercel, and can be accessed [here](https://bags-pearl.vercel.app/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
