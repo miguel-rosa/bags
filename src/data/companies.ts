@@ -22,12 +22,6 @@ const companies: Company[] = [
         A: 1200
       }
     ],
-
-    // goals: {
-    //   revenue: 2000,
-    //   loan: 500
-
-    // },
     revenueHistory: [
       {
         name: 'Sep',
