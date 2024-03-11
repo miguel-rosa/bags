@@ -4,6 +4,15 @@
 
 This project aims to create an interactive data visualization piece to showcase the financial health of small businesses. 
 
+## Documentation
+### Hooks and Providers
+- [Creating and managing hooks](/src/hooks/readme.md)
+#### Existing hooks
+- [useCompany](/src/hooks/useCompany/readme.md)
+- [useDocuments](/src/hooks/useDocuments/readme.md)
+- [useUser and UserProvider](/src/hooks/useUser/readme.md)
+
+
 ## Adjustments and next tasks
 
 * [X] Use Typescript
@@ -12,7 +21,7 @@ This project aims to create an interactive data visualization piece to showcase 
 * [X] Use setTimeout to mock API calls, and separate the data fetching from the UI
 * [X] Create components simple to build a composable UI
 * [X] Use eslint to ensure the code formatting
-* [ ] Use Chakra UI
+* [X] Use Chakra UI to handle themes
 
 ## How to install and use
 
