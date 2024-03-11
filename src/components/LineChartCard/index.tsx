@@ -10,16 +10,19 @@ interface Props {
   }>
   title: string
   width?: string
+  tooltip?: string
 }
 const LineChartCard: React.FC<Props> = ({
   data,
   title,
-  width
+  width,
+  tooltip
 }) => {
   return (
     <ChartCard
       title={title}
       width={width}
+      tooltip={tooltip}
     >
       <ResponsiveContainer width="100%" height="100%">
         <LineChart data={data} margin={{ top: 5, right: 20, bottom: 5, left: 0 }}>

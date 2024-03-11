@@ -10,15 +10,17 @@
   transition: .3s ease-in-out;
 }
 
-.card:hover {
-  transform: translateY(-2px);
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
 }
 
 .title {
   font-size: 14px;
   font-weight: 500;
   color: var(--description-color);
-  margin-bottom: 10px;
   text-align: left;
 }
 

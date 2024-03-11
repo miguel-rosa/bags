@@ -7,6 +7,8 @@
   --description-color: rgb(142, 142, 142);
   --title-color: white;
   --button-background: rgb(30, 30, 30);
+  --tooltip-color: #1a1a1a;
+  --tooltip-background: #f5f5f5;
 }
 
 body {

@@ -10,18 +10,21 @@ interface Props {
   }>
   title: string
   width?: string
+  tooltip?: string
 
 }
 const RadarChartCard: React.FC<Props> = ({
   data,
   title,
-  width
+  width,
+  tooltip
 
 }) => {
   return (
     <ChartCard
       title={title}
       width={width}
+      tooltip={tooltip}
     >
       <ResponsiveContainer width="100%" height="100%">
         <RadarChart cx="50%" cy="50%" outerRadius="80%" data={data}>

@@ -9,11 +9,17 @@
   align-items: center;
 }
 
+.heading {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
 .title {
   font-size: 18px;
   font-weight: 600;
   align-self: flex-start;
-  margin-bottom: 20px;
   color: var(--title-color)
 }
 
