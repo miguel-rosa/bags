@@ -16,18 +16,18 @@ const Main: React.FC = () => {
       <Header />
       <div className={styles.cards}>
         <div className={styles.numericCards}>
-          <NumericCard title="Total Revenue" number={company.revenue} tooltip="Revenue is a kdfajfkjd jdfskjfdks jdsfkjfds j dfis" />
-          <NumericCard title="Total Debt" number={company.totalDebt} tooltip="Revenue is a kdfajfkjd jdfskjfdks jdsfkjfds j dfis" />
-          <NumericCard title="Total Minimum Monthly Payment" number={company.totalMMP} tooltip="Revenue is a kdfajfkjd jdfskjfdks jdsfkjfds j dfis" />
-          <NumericCard title="Current Loan" number={company.loan} tooltip="Revenue is a kdfajfkjd jdfskjfdks jdsfkjfds j dfis" />
-          <NumericCard title="Expected Revenue" number={company.expectedRevenue} tooltip="Revenue is a kdfajfkjd jdfskjfdks jdsfkjfds j dfis" />
+          <NumericCard title="Total Revenue" number={company.revenue} tooltip="Revenue is your company total income" />
+          <NumericCard title="Total Debt" number={company.totalDebt} tooltip="Total debt is calculated by adding up a company's liabilities, or debts, which are categorized as short and long-term debt" />
+          <NumericCard title="Total Minimum Monthly Payment" number={company.totalMMP} tooltip="This is the lowest amount that your company can pay on revolving credit per month to keep health " />
+          <NumericCard title="Current Loan" number={company.loan} tooltip="To which all payments of principal and interest then due have been paid, except for the most recent payment then due of principal and interest." />
+          <NumericCard title="Expected Revenue" number={company.expectedRevenue} tooltip="The expected Revenue is calculated by the sum of the value in each stage multiplied by that stage's probability" />
         </div>
         <div className={styles.graphs}>
           <div className={styles.graphCards}>
-            <LineChartCard title="Revenue History" width="100%" data={company.revenueHistory} tooltip="Revenue is a kdfajfkjd jdfskjfdks jdsfkjfds j dfis" />
+            <LineChartCard title="Revenue History" width="100%" data={company.revenueHistory} tooltip="The revenue history from your company" />
           </div>
           <div className={styles.columnCards}>
-            <RadarChartCard title="Expenses" width="100%" data={company.expenses} tooltip="Revenue is a kdfajfkjd jdfskjfdks jdsfkjfds j dfis" />
+            <RadarChartCard title="Expenses" width="100%" data={company.expenses} tooltip="The expenses of this mont, divided by category" />
           </div>
 
         </div>

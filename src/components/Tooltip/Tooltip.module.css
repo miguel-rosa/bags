@@ -2,8 +2,9 @@
   display: flex;
   align-items: center;
   position: relative;
-  justify-content: center;
+  justify-content: flex-end;
   margin: 0 10px;
+
 }
 
 .tooltip:hover .description {
@@ -15,16 +16,23 @@
 .description {
   transform: translateY(10px);
   bottom: 25px;
-  width: 100px;
+
+  width: 180px;
   opacity: 0;
   visibility: hidden;
   transform: translateY(10px);
   transition: .3s ease-in-out;
   position: absolute;
   background: var(--chakra-colors-tooltip-background);
-  font-size: 10px;
+  font-size: 11px;
   padding: 6px;
   border-radius: 2px;
   color: var(--chakra-colors-tooltip-color);
   ;
+}
+
+@media screen and (max-width: 768px) {
+  .tooltip {
+    justify-content: center;
+  }
 }
