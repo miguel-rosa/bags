@@ -7,6 +7,7 @@
   border-radius: 12px;
   border: 1px solid var(--border-color);
   align-items: flex-start;
+  justify-content: space-between;
   transition: .3s ease-in-out;
 }
 
