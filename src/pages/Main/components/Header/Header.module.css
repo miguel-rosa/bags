@@ -14,13 +14,18 @@
 .title {
   font-size: 32px;
   font-weight: 600;
-  color: var(--title-color);
+  color: var(--chakra-colors-title-color);
 }
 
 .description {
   font-size: 18px;
   font-weight: 500;
-  color: var(--description-color);
+  color: var(--chakra-colors-description-color);
+
+}
+
+.highlight {
+  text-decoration: underline;
 }
 
 .buttons {
@@ -30,12 +35,12 @@
 }
 
 .button {
-  color: var(--description-color);
+  color: var(--chakra-colors-description-color);
   padding: 4px 8px;
   font-size: 12px;
   border-radius: 4px;
-  background: var(--button-background);
-  border: 1px solid var(--border-color);
+  background: var(--chakra-colors-button-background);
+  border: 1px solid var(--chakra-colors-border-color);
   cursor: pointer;
   text-decoration: none;
 

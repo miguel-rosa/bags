@@ -7,12 +7,14 @@ interface Props {
   title: string
   number: number
   tooltip?: string
+  isCurrency?: boolean
 }
 
 const NumericCard: React.FC<Props> = ({
   title,
   tooltip,
-  number
+  number,
+  isCurrency = true
 }) => {
   return (
     <div className={styles.card}>
@@ -20,7 +22,7 @@ const NumericCard: React.FC<Props> = ({
 
         <h2 className={styles.title}>{title}</h2>{tooltip ? <Tooltip description={tooltip} /> : null}
       </div>
-      <p className={styles.number}>{formatCurrency(number)}</p>
+      <p className={styles.number}>{isCurrency ? formatCurrency(number) : number}</p>
     </div>
   )
 }

@@ -1,12 +1,17 @@
 import React from 'react'
 
-import Main from './pages/Main'
+import { ChakraProvider } from '@chakra-ui/react'
+
 import { UserProvider } from './hooks/useUser'
+import Routes from './pages/Routes'
+import theme from './theme'
 
 const App: React.FC = () => {
   return (
     <UserProvider>
-      <Main />
+      <ChakraProvider theme={theme}>
+        <Routes />
+      </ChakraProvider>
     </UserProvider>
   )
 }

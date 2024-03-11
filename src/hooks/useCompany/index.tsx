@@ -37,7 +37,7 @@ const useCompany = ({
       if (company !== undefined) {
         dispatch({
           type: 'setCompany',
-          ...company
+          data: company
         })
       }
     }).catch((_error) => {

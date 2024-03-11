@@ -21,10 +21,10 @@
   transform: translateY(10px);
   transition: .3s ease-in-out;
   position: absolute;
-  background: var(--tooltip-background);
+  background: var(--chakra-colors-tooltip-background);
   font-size: 10px;
   padding: 6px;
   border-radius: 2px;
-  color: var(--tooltip-color);
+  color: var(--chakra-colors-tooltip-color);
   ;
 }

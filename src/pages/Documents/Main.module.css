@@ -33,6 +33,13 @@
   justify-content: flex-start;
 }
 
+.table {
+  background: var(--chakra-colors-card-background);
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid var(--chakra-colors-border-color);
+}
+
 .graphs {
   display: flex;
   gap: 10px;
