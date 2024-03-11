@@ -28,7 +28,6 @@ const useDocuments = ({
     getDocumentsByCompanyId(id).then((companyDocuments) => {
       if (ignore) return
       if (companyDocuments?.documents.length) {
-        console.log('companyDocuments?.documents', companyDocuments?.documents)
         dispatch({
           type: 'setDocuments',
           data: companyDocuments.documents
